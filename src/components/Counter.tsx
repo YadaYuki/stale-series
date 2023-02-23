@@ -5,6 +5,7 @@ export const Counter = () => {
   const increment = useCallback(() => {
     setCount(count + 1);
   }, [count]);
+
   const decrement = useCallback(() => {
     setCount(count - 1);
   }, [count]);
